@@ -1,0 +1,27 @@
+{
+    "name": "myvendor/contactform",
+    "description": "It will log all transitions in app with location",
+    "authors": [
+        {
+            "name": "radha",
+            "email": "radha.techfreelancer@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "database/seeders",
+            "database/factories"
+        ],
+        "psr-4": {
+            "MyVendor\\Contactform\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MyVendor\\Contactform\\": "packages/MyVendor/contactform/src",
+            "Tests\\": "tests/"
+        }
+    }
+}
