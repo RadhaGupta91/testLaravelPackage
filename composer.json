@@ -1,10 +1,9 @@
 {
-    "name": "myvendor/contactform",
-    "description": "It will log all transitions in app with location",
+    "name": "radhad/logging",
     "authors": [
         {
             "name": "radha",
-            "email": "radha.techfreelancer@gmail.com"
+            "email": "radha94646@gmail.com"
         }
     ],
     "require": {},
@@ -14,13 +13,13 @@
             "database/factories"
         ],
         "psr-4": {
-            "MyVendor\\Contactform\\": "src/",
+            "RadhaD\\logging\\": "src/",
             "App\\": "app/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MyVendor\\Contactform\\": "packages/MyVendor/contactform/src",
+            "RadhaD\\Logging\\": "packages/RadhaD/logging/src",
             "Tests\\": "tests/"
         }
     }

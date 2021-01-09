@@ -174,8 +174,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        MyVendor\Contactform\ContactFormServiceProvider::class,
-
+        // Our new package class
+        RadhaD\Logging\LoggingServiceProvider::class,
     ],
 
     /*
